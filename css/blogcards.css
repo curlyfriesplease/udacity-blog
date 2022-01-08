@@ -1,0 +1,32 @@
+main {
+  display: grid;
+  text-align: center;
+  /*
+  grid-template-columns: 100%;
+  grid-template-rows: 80px auto;
+*/
+}
+
+.mostrecentarticle > img {
+  max-width: 500px;
+  min-width: 100px;
+}
+
+.mostrecentarticle {
+  min-height: 300px;
+}
+
+.olderarticles {
+  min-width: 150px;
+  display: flex;
+}
+
+.authorinfo img {
+  vertical-align: middle;
+}
+
+.authorpicture {
+  max-height: 50px;
+  max-width: 50px;
+  border-radius: 50%;
+}

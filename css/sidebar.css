@@ -1,0 +1,14 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+aside div {
+  margin-left: 20px;
+}
+
+aside li {
+  line-height: 1.6;
+  font-size: 90%;
+}

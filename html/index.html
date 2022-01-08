@@ -2,11 +2,104 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link href="css/main.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
     <title>Jon's Travel Blog - Main Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
   </head>
 
   <body>
-    The content of the document......
+    <header>
+      <div id="homebutton">
+        <span class="material-icons"><a href="index.html">home</a></span>
+      </div>
+      <h1>Travelwithme.</h1>
+      <div id="socialbuttons">
+        <a href="http://www.twitter.com"
+          ><span class="iconify" data-icon="mdi:twitter"></span
+        ></a>
+        <a href="http://www.facebook.com"
+          ><span class="iconify" data-icon="bi:facebook"></span
+        ></a>
+        <a href="http://www.linkedin.com"
+          ><span class="iconify" data-icon="akar-icons:linkedin-fill"></span
+        ></a>
+      </div>
+
+    </header>
+
+    <aside>
+      <div id="categories">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="blogpost.html">News</a></li>
+          <li><a href="blogpost.html">Restaurants</a></li>
+          <li><a href="blogpost.html">Walks</a></li>
+          <li><a href="blogpost.html">Tours</a></li>
+          <li><a href="blogpost.html">Shopping</a></li>
+          <li><a href="blogpost.html">Interviews</a></li>
+        </ul>
+      </div>
+      <div id="archives">
+        <h3>Archives</h3>
+        <ul>
+          <li>
+            2022
+            <ul>
+              <li><a href="blogpost.html">January</a></li>
+            </ul>
+          </li>
+          <li>
+            2021
+            <ul>
+              <li><a href="blogpost.html">December</a></li>
+              <li><a href="blogpost.html">November</a></li>
+              <li><a href="blogpost.html">October</a></li>
+              <li><a href="blogpost.html">September</a></li>
+              <li><a href="blogpost.html">August</a></li>
+              <li><a href="blogpost.html">July</a></li>
+              <li><a href="blogpost.html">June</a></li>
+              <li><a href="blogpost.html">May</a></li>
+              <li><a href="blogpost.html">April</a></li>
+              <li><a href="blogpost.html">March</a></li>
+              <li><a href="blogpost.html">February</a></li>
+              <li><a href="blogpost.html">January</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="debug">
+      <a href="blogpost.html"
+        ><div class="mostrecentarticle debug">
+          <img src="../images/tokyo.jpg" />
+          <h2>Tokyo</h2>
+          <div class="authorinfo">
+            <img src="../images/author-cesar-govea.jpg" class="authorpicture"></img>
+            <span>Posted by <strong>Cesar Govea</strong></span>
+          </div>
+          <p>Loreum Ipsum afjioewf wejoifj wowi je ffodesifjs dsojfoijf osdjfssnfen so fnkjds nsikl fnusfn usdnuif das dad asd asdqw wqr wer we fsd sff ds sui snksnfk sej</p>
+        </div>
+      </a>
+      <div class="olderarticles debug">Older articles</div>
+    </main>
+
+    <footer>
+      <h6>
+        <a href="www.google.com">Privacy Policy</a> |
+        <a href="www.google.com">Terms of Service</a> |
+        <a href="www.google.com">Sitemap</a>
+      </h6>
+    </footer>
   </body>
 </html>
