@@ -17,6 +17,7 @@ main {
 
 h2 {
   color: #3a1a5e;
+  padding-top: 10px;
 }
 
 strong {
@@ -37,7 +38,7 @@ strong {
 }
 
 .oldarticle {
-  padding-top: 30px;
+  padding-top: 40px;
   max-width: 300px;
   border-top: 50px;
 }
