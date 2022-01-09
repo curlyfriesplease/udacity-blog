@@ -15,6 +15,14 @@ main {
   }
 }
 
+h2 {
+  color: #3a1a5e;
+}
+
+strong {
+  color: #0a02ad;
+}
+
 .mostrecentarticle {
   min-height: 300px;
 }
@@ -29,6 +37,7 @@ main {
 }
 
 .oldarticle {
+  padding-top: 30px;
   max-width: 300px;
   border-top: 50px;
 }

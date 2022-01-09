@@ -47,11 +47,15 @@ img {
     grid-template-areas:
       'hd hd hd hd'
       'sd . main .'
-      'ft ft ft ft';
+      '. ft ft ft';
   }
 }
 
 /* set grid areas */
+
+.homebutton {
+  grid-area: hm;
+}
 
 header {
   grid-area: hd;
