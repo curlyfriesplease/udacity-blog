@@ -6,11 +6,13 @@
 @import 'footer.css';
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;500&display=swap');
 
-/*
-For the purposes of building and debugging only .debug {
+/*For the purposes of building and debugging only */
+.debug {
   border: 2px solid red;
   background: #f8fa9d;
 }
+/*
+
 body {
   border: 2px solid blue;
 }
@@ -40,7 +42,7 @@ a {
 }
 
 img {
-  max-width: 500px;
+  max-width: 800px;
 }
 
 /* Desktop CSS */
@@ -78,7 +80,7 @@ section {
   grid-area: sec;
 }
 article {
-  grid-area: art;
+  grid-area: main;
 }
 footer {
   grid-area: ft;
